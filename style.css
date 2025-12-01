@@ -1,4 +1,4 @@
-/* ================= GENERAL ================= */
+
 /* Scroll smooth kasi gusto nating parang professional kahit estudyante lang tayo */
 html { scroll-behavior: smooth; }
 
@@ -44,7 +44,7 @@ nav { display:flex; align-items:center; gap:0; }
 nav a { margin-left:24px; color:#B3B3B3; text-decoration:none; font-weight:700; font-size:20px; transition:0.3s; }
 nav a:hover { color:#FFD700; transition:0.3s; }
 
-/* ================= HERO ================= */
+
 /* Hero section: main visual para kumagat agad sa mata */
 .hero { padding:80px 0; background:#121212; }
 .hero-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); gap:40px; align-items:center; }
@@ -78,12 +78,12 @@ nav a:hover { color:#FFD700; transition:0.3s; }
 }
 .btn-secondary:hover { background:#FFD700; color:#fff; transition:0.3s; }
 
-/* ================= FADE IN ================= */
+
 /* Para may swag kapag scroll down */
 .fade-in-section { opacity:0; transform:translateY(20px); transition:opacity 0.8s ease, transform 0.8s ease; }
 .fade-in-section.visible { opacity:1; transform:translateY(0); }
 
-/* ================= ABOUT ================= */
+/* About to ha */
 .about { background:#1E1E1E; color:#fff; padding:80px 0; }
 .about-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); gap:60px; align-items:center; }
 .about-images { display:flex; gap:15px; justify-content:center; }
@@ -91,7 +91,7 @@ nav a:hover { color:#FFD700; transition:0.3s; }
 .about-title { font-size:44px; color:#FFD700; }
 .about-text { font-size:20px; line-height:1.7; color:#B3B3B3; }
 
-/* ================= MENU ================= */
+/* Menu yarn */
 /* Menu titles */
 .menu-category { margin-bottom:60px; position:relative; }
 .menu-category h3 { font-size:32px; margin-bottom:20px; color:#FFD700; }
@@ -116,7 +116,7 @@ nav a:hover { color:#FFD700; transition:0.3s; }
 .scroll-btn.left { left:-15px; }
 .scroll-btn.right { right:-15px; }
 
-/* ================= GALLERY ================= */
+/* Gallery to ha */
 .gallery-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:20px; }
 .gallery-grid img { width:100%; height:180px; object-fit:cover; border-radius:8px; transition:0.3s; }
 .gallery-grid img:hover { transform:scale(1.05); box-shadow:0 6px 15px rgba(255,215,0,0.3); transition:0.3s; }
@@ -130,13 +130,13 @@ nav a:hover { color:#FFD700; transition:0.3s; }
 #showMoreBtn { margin-top:18px; background:#FFD700; color:#fff; padding:14px 22px; border:none; border-radius:8px; cursor:pointer; font-size:18px; transition:0.3s; }
 #showMoreBtn:hover { background:#FFEA70; transition:0.3s; }
 
-/* ================= BLOG ================= */
+/* Blog to ha */
 .blog-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:25px; margin-top:30px; }
 .blog-post { background:#1E1E1E; padding:25px; border-radius:12px; box-shadow:0 3px 10px rgba(255,215,0,0.2); }
 .blog-post h3 { color:#FFD700; font-size:22px; }
 .blog-post p { color:#B3B3B3; font-size:18px; }
 
-/* ================= CONTACT ================= */
+/* Contacts yarn */
 .contact-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:35px; margin-top:30px; align-items:start; }
 .contact-form { display:flex; flex-direction:column; background:#1E1E1E; padding:25px; border-radius:12px; box-shadow:0 3px 10px rgba(255,215,0,0.2); }
 .contact-form h3 { margin-bottom:15px; font-size:24px; color:#FFD700; }
@@ -180,10 +180,10 @@ nav a:hover { color:#FFD700; transition:0.3s; }
   white-space: nowrap;
 }
 
-/* ================= FOOTER ================= */
+
 .footer { background:#0D0D0D; color:#B3B3B3; text-align:center; padding:25px 0; margin-top:50px; }
 
-/* ================= MODAL ================= */
+
 .modal { display:none; position:fixed; z-index:100; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.7); }
 .modal-content { background:#1E1E1E; margin:5% auto; padding:30px 25px; border-radius:15px; width:90%; max-width:400px; position:relative; }
 .close { position:absolute; right:15px; top:10px; font-size:28px; cursor:pointer; color:#FFD700; }
@@ -193,7 +193,7 @@ nav a:hover { color:#FFD700; transition:0.3s; }
 .modal-content button { padding:16px; font-size:20px; border:none; border-radius:8px; cursor:pointer; background:#FFD700; color:#fff; transition:0.3s; }
 .modal-content button:hover { background:#FFEA70; }
 
-/* ================= RESPONSIVE ================= */
+
 /* Para mobile friendly, wag maging ugly sa phone */
 @media(max-width:1024px){
   .gallery-expanded { grid-template-columns:repeat(3,1fr); }
@@ -210,7 +210,7 @@ nav a:hover { color:#FFD700; transition:0.3s; }
   .about-images { flex-direction:column; align-items:center; }
 }
 
-/* ================= TOAST MESSAGE ================= */
+
 /* Popup message kung successful ang submit, parang achievement unlocked */
 .toast-message {
   background: #4BB543;
@@ -228,3 +228,4 @@ nav a:hover { color:#FFD700; transition:0.3s; }
   opacity: 1;
   transform: translateY(0);
 }
+
